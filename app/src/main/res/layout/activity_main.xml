@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本项目的开发背景非常普通，只是一个人在闲的没事的时候写的，后来用了世界上最著名的版本控制管理器——Git，托管在 Github 和 Codeberg 上。本脚本旨在为用户提供友好的 TUI 界面，让新手也不那么困惑。\n\n\n\n\n\n\n\n   我的 GitHub: https://github.com/ZhangKunze\n\n   我的 Codeberg: https://Codeberg.org/ZKZLLPPAM\n\n\n\n\n\n    This is test Edition."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.3"
+        android:text="© 2026 张坤泽"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+	
+</androidx.constraintlayout.widget.ConstraintLayout>
